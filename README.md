@@ -23,7 +23,7 @@ Steps:
    Inside static, create another folder and name it css to house style for your web app
 10. Then inside template create index.html and inside static/css create style.css. The source code for 
     both of them are there inside this repo for reference.
-11. Save all file and stip the server from the prompt by pressing CTRL+C.
+11. Save all file and start the server from the prompt by pressing CTRL+C.
 12. Set another value to the environment variable, FLASK_APP like below:
     set FLASK_APP = app
     Then restart the server like before. This time the app would beloaded from a template html and 
@@ -42,12 +42,16 @@ Steps:
 18. Now modify the app.py and index.html
 19. Restart the server and hit the app, you will see the all the entries from the table 'posts' which were added by running the 
     script init_db.py 
+    ![alt text][https://github.com/AmlanSamanta/SimpleDemoFlaskApp/blob/main/static/App%20Main%20Page.jpg]
 20. To display one single entry, a new route and view function is added in the app.py module. Also another
     template is created for this kind of request.
+    ![alt text][https://github.com/AmlanSamanta/SimpleDemoFlaskApp/blob/main/static/Blog%20content%20view.jpg]
 21. Next we will develop the feature of creating a new post. For it, a new route and a view function is 
     added in our app.py module. Also in the base template one control is added for easy access to the functionality
     of creating new post.
+    ![alt text][https://github.com/AmlanSamanta/SimpleDemoFlaskApp/blob/main/static/Create%20New%20Post.jpg]
 22. Let's add the next obvious feature of editing an existing post. Like create, for this also add a new route
     and a view function to app module. Also add the edit link to navigate user to the corresponding post
     on the index page.
 23. Finally add the delete functionality.
+    ![alt text][https://github.com/AmlanSamanta/SimpleDemoFlaskApp/blob/main/static/Edit%20or%20Delete%20view.jpg]
